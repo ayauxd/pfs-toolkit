@@ -1,0 +1,10 @@
+# ComfyUI has its own git repo - don't track here
+comfyui/
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# OS
+.DS_Store
