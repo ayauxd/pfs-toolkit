@@ -1,0 +1,24 @@
+# Errors Log - DO NOT RETRY THESE
+
+## Known MPS Incompatibilities
+
+### FLUX FP8
+```
+TypeError: Trying to convert Float8_e4m3fn to the MPS backend
+but it does not have support for that dtype.
+```
+**DO NOT USE:** flux1-schnell-fp8.safetensors
+
+### Real-ESRGAN
+```
+RuntimeError: view size is not compatible with input tensor's
+size and stride (at least one dimension spans across two
+contiguous subspaces). Use .reshape(...) instead.
+```
+**DO NOT USE:** RealESRGAN_x4plus.pth for upscaling
+
+---
+
+## Retry Failures
+
+<!-- Add failed approaches here so they're not repeated -->
